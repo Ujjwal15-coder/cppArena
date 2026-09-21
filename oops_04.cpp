@@ -16,14 +16,14 @@ public:
     string dept;
     string subject;
 
-    teacher(string name,string dept,string subject,double salary){
+    teacher(string name,string dept,string subject,double salary){ 
         this -> name = name;
         this -> dept = dept;
         this -> subject = subject;
         this -> salary = salary;
     }
 
-    teacher(teacher &orgObj){
+    teacher(teacher &orgObj){ 
         this -> name = orgObj.name;
         this -> dept = orgObj.dept;
         this -> subject = orgObj.subject;
