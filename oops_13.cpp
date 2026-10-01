@@ -24,7 +24,7 @@ int main() {
 #include <iostream>
 using namespace std;
 //with static
-void func(){
+void func1(){
 
     static int x = 0;
     cout << x << endl;
@@ -32,9 +32,9 @@ void func(){
 }
 
 int main() {
-  func();
-  func();
-  func();
+  func1();
+  func1();
+  func1();
 
   return 0;
 }
